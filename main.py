@@ -9,8 +9,8 @@ import os
 
 load_dotenv()
 
-# DATABASE_URL = os.getenv("PaymentServiceDeployed")
-DATABASE_URL = os.getenv("PaymentServiceLocal")
+DATABASE_URL = os.getenv("PaymentServiceDeployed")
+# DATABASE_URL = os.getenv("PaymentServiceLocal")
 
 app = FastAPI()
 
